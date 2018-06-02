@@ -392,3 +392,5 @@ end)
 gui.WINDOW.redo.MouseButton1Click:connect(function()
 	--history:Redo()
 end)
+
+--Plugin author: Heather @heathyboobs
