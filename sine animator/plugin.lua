@@ -52,7 +52,7 @@ end
 button.Click:connect(function()
 	history:SetEnabled(true)
 	if not gui then
-		gui = game:service('StarterGui')['sine animator']:Clone()
+		gui = game:service('StarterGui')['sine animator']
 		if gui then
 			gui.Parent = game:service('CoreGui')
 			
